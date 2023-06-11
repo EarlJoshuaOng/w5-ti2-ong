@@ -1,0 +1,247 @@
+.Red {
+		font-family: Arial;
+		color: #CE3334;
+		font-size: 25px;
+		display: inline-block;
+}
+
+.Orange {
+		font-family: Courier New;
+		color: #E77246;
+		font-size: 25px;
+		display: inline-block;
+}
+
+.Yellow {
+		font-family: Impact;
+		color: #F2AC13;
+		font-size: 25px;
+		display: inline-block;
+}
+
+.Green {
+		font-family: Garamond;
+		color: #2B696C;
+		font-size: 25px;
+		display: inline-block;
+}
+
+.Blue {
+		font-family: Times New Roman;
+		color: #1A6CA1;
+		font-size: 25px;
+		display: inline-block;
+}
+
+.Indigo {
+		font-family: Comic Sans MS;
+		color: #1F3160;
+		font-size: 25px;
+		display: inline-block;
+}
+
+.Violet {
+		font-family: Lucida Console;
+		color: #AB4EA7;
+		font-size: 25px;
+		display: inline-block;
+}
+
+
+
+.hover {
+  visibility: hidden;
+  background-color: #CE3334;
+  color: white;
+  font-family: arial;
+  font-size:15px;
+  text-align: justify;
+  padding: 10px;
+  border-radius: 6px;
+  position: absolute;
+  width: 200px;
+  top: 120px;
+  right: 575px;
+}
+
+.Red:hover .hover{
+  visibility: visible;
+}
+
+.hover2 {
+  visibility: hidden;
+  background-color: #E77246;
+  color: white;
+  font-family: arial;
+  font-size:15px;
+  text-align: justify;
+  border-radius: 6px;
+  padding: 10px;
+  position: absolute;
+  width: 200px;
+  top: 200px;
+  right: 550px;
+}
+
+.Orange:hover .hover2{
+  visibility: visible;
+}
+
+.hover3 {
+  visibility: hidden;
+  background-color: #F2AC13;
+  color: white;
+  font-family: arial;
+  font-size:15px;
+  text-align: justify;
+  border-radius: 6px;
+  padding: 10px;
+  position: absolute;
+  width: 200px;
+  top: 280px;
+  right: 565px;
+}
+
+.Yellow:hover .hover3{
+  visibility: visible;
+}
+
+.hover4 {
+  visibility: hidden;
+  background-color: #2B696C;
+  color: white;
+  font-family: arial;
+  font-size:15px;
+  text-align: justify;
+  border-radius: 6px;
+  padding: 10px;
+  position: absolute;
+  width: 200px;
+  top: 360px;
+  right: 560px;
+}
+
+.Green:hover .hover4{
+  visibility: visible;
+}
+
+.hover5 {
+  visibility: hidden;
+  background-color: #1A6CA1;
+  color: white;
+  font-family: arial;
+  font-size:15px;
+  text-align: justify;
+  border-radius: 6px;
+  padding: 10px;
+  position: absolute;
+  width: 200px;
+  top: 435px;
+  right: 570px;
+}
+
+.Blue:hover .hover5{
+  visibility: visible;
+}
+
+.hover6 {
+  visibility: hidden;
+  background-color: #1F3160;
+  color: white;
+  font-family: arial;
+  font-size:15px;
+  text-align: justify;
+  border-radius: 6px;
+  padding: 10px;
+  position: absolute;
+  width: 200px;
+  top: 520px;
+  right: 560px;
+}
+
+.Indigo:hover .hover6{
+  visibility: visible;
+}
+
+.hover7 {
+  visibility: hidden;
+  background-color: #AB4EA7;
+  color: white;
+  font-family: arial;
+  font-size:15px;
+  text-align: justify;
+  border-radius: 6px;
+  padding: 10px;
+  position: absolute;
+  width: 200px;
+  top: 600px;
+  right: 550px;
+}
+
+.Violet:hover .hover7{
+  visibility: visible;
+}
+
+
+
+
+.hover::first-letter {
+	font-size: 40px;
+	color: black;
+	float: left;
+	letter-spacing: 2px;
+	line-height: 0.8;
+}
+
+.hover2::first-letter {
+	font-size: 40px;
+	color: black;
+	float: left;
+	letter-spacing: 2px;
+	line-height: 0.8;
+}
+
+.hover3::first-letter {
+	font-size: 40px;
+	color: black;
+	float: left;
+	letter-spacing: 2px;
+	line-height: 0.8;
+}
+
+.hover4::first-letter {
+	font-size: 40px;
+	color: black;
+	float: left;
+	letter-spacing: 2px;
+	line-height: 0.8;
+}
+
+.hover5::first-letter {
+	font-size: 40px;
+	color: black;
+	float: left;
+	letter-spacing: 2px;
+	line-height: 0.8;
+}
+
+.hover6::first-letter {
+	font-size: 40px;
+	color: black;
+	float: left;
+	letter-spacing: 2px;
+	line-height: 0.8;
+}
+
+.hover7::first-letter {
+	font-size: 40px;
+	color: black;
+	float: left;
+	letter-spacing: 2px;
+	line-height: 0.8;
+}
+
+.sc {
+	font-variant: small-caps;
+}
+
